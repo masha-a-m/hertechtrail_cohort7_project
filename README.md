@@ -58,8 +58,8 @@ The website was deployed via Netlify. The link can be found here:
 These websites helped me when I was stuck on how some aspects of the website should be like.
 
 ## Author
-Website - MARYAM GARBA
-Twitter - MARYAM GARBA
+Website -  (https://www.theintrovertedreader.home.blog)
+Twitter - (https://www.twitter.com/bookoverboys)
 
 ## Acknowledgement
 I gives all thanks to God for the successful completion of this capstone project. i would also like to thank HerTechTrail Academy, the founders, and especially my coach, Ms Edozie Magdalene for impacting on us an enormous amount of knowledge which has helped to develop our skills and has enabled us to make whole projects that we would never had thought of even starting otherwise. Thank you so much!
