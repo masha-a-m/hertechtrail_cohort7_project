@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #31ACBA;
+    --primary: #ba3181;
     --secondary: #FFD6B2;
     --light: #8FCOC8;
     --dark: #262b47;
@@ -167,6 +167,7 @@ h6,
 }
 
 /*** Navbar ***/
+
 .navbar-light .navbar-nav .nav-link {
     position: relative;
     margin-right: 25px;
@@ -174,9 +175,12 @@ h6,
     font-family: 'Jost', sans-serif;
     font-size: 18px;
     font-weight: 500;
-    color: var(--light) !important;
+    color: var(--secondary) !important;
     outline: none;
     transition: 0.5s;
+}
+#contactp{
+    background-color: var(--primary) !important;
 }
 
 .navbar-light .navbar-nav .nav-link::before {
@@ -340,6 +344,23 @@ h6,
         var(--primary),
         var(--secondary)
     );
+}
+
+.card{
+    padding-top: 100px;
+    margin-left: 120px;
+    margin-right: 160px;
+    border: none;
+}
+.card-text, .card-title{
+    text-align: center;
+    margin-left: 80px;
+}
+.card-img-top{
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 160px;
+
 }
 
 /*** Screenshot ***/
