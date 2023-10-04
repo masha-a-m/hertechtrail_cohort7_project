@@ -346,22 +346,25 @@ h6,
     );
 }
 
-.card{
-    padding-top: 100px;
-    margin-left: 120px;
-    margin-right: 160px;
-    border: none;
-}
-.card-text, .card-title{
-    text-align: center;
-    margin-left: 80px;
-}
-.card-img-top{
-    margin-top: 200px;
-    margin-left: 100px;
-    margin-right: 160px;
 
-}
+.card {
+   
+    border: none;
+    color: rgba(250, 250, 250, 0.8);
+   
+  }
+  
+  .btn {
+    border: 5px solid;
+    background: var(--secondary);
+    transition: all .4s ease;
+  }
+  
+  .btn:hover, .btn:focus {
+    border: 5px solid #fff;
+    box-shadow: #222 1px 0 10px;
+    text-decoration: underline;
+  }
 
 /*** Screenshot ***/
 .screenshot-carousel {
