@@ -1,10 +1,8 @@
-*{
-  overflow-x: hidden;
-}
+
 .images {
     position: absolute;
   }
-  
+
   #about{
     background: rgb(255, 255, 255);
     margin-top: 5px;
@@ -26,18 +24,13 @@
     margin-right: -30px;
     margin-left: -30px;}
    
-    img {
-      max-width: 100%;
-      height: auto;
-      border:0;
-      width: 78px;
-      height: 78px;
-      overflow-clip-margin: content-box;
-      overflow: clip;
-  }
+ 
   .port-img{
-    padding: 120px;
+   
     margin-top: 10px;
+    width: 220px;
+    border: 8px;
+    border-radius: 50px;
   }
   port-text{
     text-align:justify;

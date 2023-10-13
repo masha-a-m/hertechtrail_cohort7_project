@@ -6,6 +6,9 @@
     --dark: #262b47;
 }
 
+*{
+    overflow-x:hidden;
+}
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -292,8 +295,8 @@ h6,
 
 /*** Hero Header ***/
 .hero-header {
-    margin-bottom: 6rem;
-    padding: 16rem 0 0 0;
+    margin-bottom: 5rem;
+    padding: 16rem 10rem 10rem 0;
     background: url(../img/bg-circle.png), url(../img/bg-triangle.png),
         url(../img/bg-bottom.png),
         linear-gradient(to bottom right, var(--primary), var(--secondary));
