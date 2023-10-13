@@ -1,4 +1,6 @@
-
+*{
+  overflow-x: hidden;
+}
 .images {
     position: absolute;
   }
@@ -9,6 +11,7 @@
     padding-top: px;
     padding-bottom: 1.5rem;
   }
+ 
   #about .section-intro {
     margin-bottom: 3rem;
     max-width: 700px;
@@ -26,13 +29,13 @@
    
  
   .port-img{
-   
     margin-top: 10px;
     width: 220px;
-    border: 8px;
-    border-radius: 50px;
+    border: none;
+   
   }
   port-text{
+    border-top: 10px;
     text-align:justify;
     font-size: 200vw;
   }
@@ -51,3 +54,29 @@
     opacity: .9;
     z-index: 4;
   }
+  @media (max-width:475px) {
+    body{
+      width: 100%;
+      overflow-x: hidden;
+    }
+    }
+  @media (max-width:640px) {
+    body{
+      max-width: 475px;
+      overflow-x: hidden;
+    }
+  }
+  @media (max-width:768px) {
+    body{
+      max-width: 640px;
+      overflow-x: hidden;
+    }
+  
+  }
+  @media (max-width:1024px) {
+    body{
+      max-width: 768px;
+      overflow-x: hidden;
+    }
+  }
+ 
