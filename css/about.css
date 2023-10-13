@@ -1,11 +1,15 @@
+*{
+  overflow-x: hidden;
+}
 .images {
-    position: relative;
+    position: absolute;
   }
   
   #about{
-    background: white;
-    padding-top: 12rem;
-    padding-bottom: 15rem;
+    background: rgb(255, 255, 255);
+    margin-top: 5px;
+    padding-top: px;
+    padding-bottom: 1.5rem;
   }
   #about .section-intro {
     margin-bottom: 3rem;
@@ -18,7 +22,7 @@
 }
 
   .intro-info {
-    margin-top: 4.2rem;
+    margin-top: 3rem;
     margin-right: -30px;
     margin-left: -30px;}
    
@@ -31,7 +35,14 @@
       overflow-clip-margin: content-box;
       overflow: clip;
   }
-  
+  .port-img{
+    padding: 120px;
+    margin-top: 10px;
+  }
+  port-text{
+    text-align:justify;
+    font-size: 200vw;
+  }
   .images .bottom-image {
     width: 100%;
     position: relative;
