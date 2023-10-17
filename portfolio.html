@@ -35,6 +35,18 @@
             rel="stylesheet"
         />
 
+        <!-- Vendor Files -->
+        <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+        <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+        <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+        <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+        <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
         <!-- Customized Bootstrap Stylesheet -->
         <link href="css/bootstrap.min.css" rel="stylesheet" />
 
@@ -100,131 +112,174 @@
             <!-- Navbar & Hero End -->
 
             <!-- Features Start -->
-            <div class="container-xxl py-5" id="feature">
-                <div class="container py-5 px-lg-5">
-                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                        <h1 class="mb-5">Portfolio</h1>
+             <!-- ======= Portfolio Section ======= -->
+             <section id="portfolio" class="portfolio">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-titlep">
+                        <h2>Portfolio</h2>
+                        <p>Below are some of the Portfolio I have created in the past 8 months. These are in the niche of both Web Development (HTML, CSS & Bootstrap) and UI/UX Design (mainly Figma and FigJam)</p>
                     </div>
-                    
-                </div>
-            </div>
-            
-            <div class="container mx-auto mt-4" class="port-i">
-                <div class="row">
-                  <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                <img src="./img/Opera Snapshot_2023-10-03_233417_shopverse-online.netlify.app.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">ShopVerse Website</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">An ecommerce site built with HTML, CSS and JS</h6>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                    <div class="row" data-aos="fade-up" data-aos-delay="100">
+                      <div class="col-lg-12 d-flex justify-content-center">
+                        <ul id="portfolio-flters">
+                          <li data-filter="*" class="filter-active">All</li>
+                          <li data-filter=".filter-web" class="filter-web">Web Development</li>
+                          <li data-filter=".filter-ui" class="filter-ui">UI / UX Design</li>
+                        </ul>
+                      </div>
+                    </div>
+        
+          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img src="./img/Opera Snapshot_2023-10-03_233417_shopverse-online.netlify.app.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>ShopVerse App</h4>
+                  <p>Web Development (HTML & Bootstrap)</p>
+                  <div class="portfolio-links">
+                    <a href="./img/Opera Snapshot_2023-10-03_233417_shopverse-online.netlify.app.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  </div>
                      <a href="shopverse-online.netlify.app" id="lin" class="btn mr-2"><i class="fas fa-link"></i> Visit Site</a>
                   <a href="https://github.com/Distinctsy/alx_project_1" id="lin" class="btn"><i class="fab fa-github"></i> Github</a>
                 </div>
-                </div>
-                  </div>    
-                  <div class="col-md-4">
-                    <div class="card" style="width: 18rem; height: rem;">
-                <img src="./img/DAY 14 DESIGN CHALLENGE (1).png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Pricing Plans</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">UI/UX Design of a Pricing Plan page using Figma.</h6>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img src="./img/DAY 14 DESIGN CHALLENGE (1).png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Pricing Plans</h4>
+                  <p>Design (Figma)</p>
+                  <div class="portfolio-links">
+                    <a href="./img/DAY 14 DESIGN CHALLENGE (1).png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                   </div>
-                   <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                      <img src="./img/Day 2 Design Challenge.png" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Call Centre Site</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Homepage of a Call Centre Website. Created with HTML and a bit of CSS.</h6>
-                        <p class="card-text"></p>
-                       
-                      </div>
-                      </div>
-                      </div> 
-                   <div class="col-md-4">
-              <div class="card" style="width: 18rem;">
-                <img src="./img/music design.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Music Site</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">Music Site made using Figma</h6>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                 
                 </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="./img/Day 2 Design Challenge.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Call Centre</h4>
+                  <p>Web Development (HTML & CSS)</p>
+                  <div class="portfolio-links">
+                    <a href="./img/Day 2 Design Challenge.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  </div>
                 </div>
-                  </div>    
-                  <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                <img src="./img/DAY 18 DESIGN CHALLENGE.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Location Page</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">Search your location from anywhere in the world with this small page created with HTML, CSS</h6>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img src="./img/music design.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Music Site</h4>
+                  <p>Design (Figma)</p>
+                  <div class="portfolio-links">
+                    <a href="./img/music design.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  </div>
                 </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img src="./img/DAY 18 DESIGN CHALLENGE.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Location Page</h4>
+                  <p>Web Development (HTML, CSS)</p>
+                  <div class="portfolio-links">
+                    <a href="./img/DAY 18 DESIGN CHALLENGE.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  </div>
                 </div>
-                  </div>    
-                     <div class="col-md-4">
-              <div class="card" style="width: 18rem;">
-                <img src="./img/DAY 17 DESIGN CHALLENGE.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Gym Page</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">Gym page for gym lovers. Made with HTML, CSS.</h6>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                 
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="./img/DAY 17 DESIGN CHALLENGE.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Gym Site</h4>
+                  <p>Web Development (HTML & CSS)</p>
+                  <div class="portfolio-links">
+                    <a href="./img/DAY 17 DESIGN CHALLENGE.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  </div>
                 </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img src="./img/DAY 15 DESIGN CHALLENGE.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Contact Form</h4>
+                  <p>Web Development (HTML, Bootstrap)</p>
+                  <div class="portfolio-links">
+                    <a href="./img/DAY 15 DESIGN CHALLENGE.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  </div>
                 </div>
-                  </div>    
-                        <div class="col-md-4">
-              <div class="card" style="width: 18rem;">
-                <img src="./img/DAY 15 DESIGN CHALLENGE.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Contact Form</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">Mini contact form made using HTML, CSS.</h6>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                 
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img src="./img/DAY 11 DESIGN CHALLENGE.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Author Site</h4>
+                  <p>Design (Figma, FigJam)</p>
+                  <div class="portfolio-links">
+                    <a href="./img/DAY 11 DESIGN CHALLENGE.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  </div>
                 </div>
-                </div>
-                </div>  
-                    <div class="col-md-4">
-              <div class="card" style="width: 18rem;">
-                <img src="./img/DAY 11 DESIGN CHALLENGE.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Author Site</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">UI/UX Design of an Author site</h6>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                 
-                </div>
-                </div>
-                </div>
-                    <div class="col-md-4">
-              <div class="card" style="width: 18rem;">
-                <img src="./img/audible redesign.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Audible Redesign</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">Audible site made with Figma.</h6>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  
-                </div>
-                </div>
-                  </div>    
-                    <div class="col-md-4">
-              <div class="card" style="width: 18rem;">
-                <img src="./img/kitchen redesign.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Kitchen Stories redesign</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">Made with Figma, a redesign of Kitchen stories app.</h6>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  
-                </div>
-                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img src="./img/audible redesign.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Audible Redesign</h4>
+                  <p>Design (Figma)</p>
+                  <div class="portfolio-links">
+                    <a href="./img/audible redesign.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  </div>
                 </div>
               </div>
             </div>
 
-              
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                <div class="portfolio-wrap">
+                  <img src="./img/kitchen redesign.png" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Kitchen Stories Redesign</h4>
+                    <p>Design (Figma)</p>
+                    <div class="portfolio-links">
+                      <a href="./img/kitchen redesign.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                      <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+          </div>
+  
+        </div>
+      </section><!-- End Portfolio Section -->
+
+
             <!-- Features End -->
 
             <!-- Footer Start -->
