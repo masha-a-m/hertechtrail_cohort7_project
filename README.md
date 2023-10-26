@@ -31,7 +31,7 @@ send me a message via the contact form
 
 ### Links
 Solution URL (https://github.com/masha-a-m/hertechtrail_cohort7_project)
-Live Site URL (https://hertechtrail-cohort-7-project.netlify.app)
+Live Site URL (https://maryam-garba-hertechtrail-project.netlify.app)
 
 ### My Process
 I started this project by learning the basics of bootstrap. After which I implemented what I was taught in class in my site. I did the HTML structure first, then moved on to basic css and added bootstrap to my HTML file. 
