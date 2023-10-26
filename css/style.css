@@ -701,6 +701,7 @@ h6,
 @media (min-width: 576px) and (max-width: 768px) {
     .navbar-light .navbar-nav .nav-link{
         color:white !important;
+        background-color: #e098c2 !important;
     }
  }
 
