@@ -4,6 +4,7 @@
     --secondary: #FFD6B2;
     --light: #8FCOC8;
     --dark: #262b47;
+    --pink: #ffc0cb;
 }
 
 
@@ -225,11 +226,8 @@ h6,
         position: relative;
         background: #ffffff;
     }
-
-    .navbar-light .navbar-collapse {
-        margin-top: 15px;
-        border-top: 1px solid #dddddd;
-    }
+    
+ 
 
     .navbar-light .navbar-nav .nav-link,
     .sticky-top.navbar-light .navbar-nav .nav-link {
@@ -694,4 +692,15 @@ h6,
     opacity: 1;
   }
   
-  
+  @media (min-width: 576px) and (max-width: 991px) {
+   .portfolio {
+    margin-top: -100px;
+   }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .navbar-light .navbar-nav .nav-link{
+        color:white !important;
+    }
+ }
+
