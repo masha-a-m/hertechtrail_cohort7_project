@@ -7,7 +7,7 @@ This is a repo for My Capstone Project in HerTechTrail Academy Cohort 7 Web Deve
 # Table of content
 
 - [ HerTechTrail Cohort 7 Web Development Starter Capstone Project](#hertechtrail-cohort-7-web-development-starter-capstone-project)
-- [Table of content] (#table-of-content)
+- [ Table of content] (#table-of-content)
 - [Details] (#details)
 - [Project Task] (#project-task)
 - [Links] (#links)
