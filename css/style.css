@@ -185,6 +185,9 @@ h6,
     background-color: var(--primary) !important;
     color:white !important;
 }
+navbarCollapse{
+    color:white !important;
+}
 
 .navbar-light .navbar-nav .nav-link::before {
     position: absolute;
