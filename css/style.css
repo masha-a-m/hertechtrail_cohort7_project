@@ -181,6 +181,9 @@ h6,
     outline: none;
     transition: 0.5s;
 }
+#contactp{
+    background-color: var(--primary) !important;
+}
 
 .navbar-light .navbar-nav .nav-link::before {
     position: absolute;
@@ -191,7 +194,7 @@ h6,
     left: 50%;
     transform: translateX(-50%);
     border: 10px solid;
-    border-color: var(--primary) ;
+    border-color: var(--light) transparent transparent transparent;
     transition: 0.5s;
 }
 
@@ -573,8 +576,7 @@ h6,
 }
 @media (min-width:576px){
    .port-title{
-    margin-top:auto !important;
-    padding-top:auto !important;
+    margin-top:900px !important;
    }
     
 
