@@ -1,0 +1,13 @@
+.navbar-light .navbar-nav .nav-link,
+.sticky-top.navbar-light .navbar-nav .nav-link {
+    padding: 10px 0;
+    margin-left: 0;
+    background-color:  !important;
+    color: var(--dark) !important;
+}
+
+
+
+.section-titlep{
+    margin-top:20px !important;
+}
