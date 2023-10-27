@@ -183,6 +183,7 @@ h6,
 }
 #contactp{
     background-color: var(--primary) !important;
+    color:white !important;
 }
 
 .navbar-light .navbar-nav .nav-link::before {
