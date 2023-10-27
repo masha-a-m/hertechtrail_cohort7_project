@@ -181,13 +181,6 @@ h6,
     outline: none;
     transition: 0.5s;
 }
-#contactp{
-    background-color: var(--primary) !important;
-    color:white !important;
-}
-navbarCollapse{
-    color:white !important;
-}
 
 .navbar-light .navbar-nav .nav-link::before {
     position: absolute;
@@ -198,7 +191,7 @@ navbarCollapse{
     left: 50%;
     transform: translateX(-50%);
     border: 10px solid;
-    border-color: var(--light) transparent transparent transparent;
+    border-color: var(--primary) ;
     transition: 0.5s;
 }
 
