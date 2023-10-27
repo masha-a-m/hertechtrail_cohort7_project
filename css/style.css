@@ -568,9 +568,24 @@ h6,
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
+@media (min-width:675px){
+    #portfolio{
+    padding-top: -200px !important;
+    }
+}
+@media (min-width:576px){
+   .port-title{
+    margin-top:auto !important;
+    padding-top:auto !important;
+   }
+    
+
+}
 .portfolio .portfolio-item {
     margin-bottom: 30px;
   }
+
   .section-titlep{
     padding-top: 150px;
     text-align: center;
